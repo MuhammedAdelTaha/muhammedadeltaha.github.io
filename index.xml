@@ -1,132 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Mohamed Adel</title>
+    <title>johndoe</title>
     <link>https://muhammedadeltaha.github.io/</link>
-    <description>Recent content in Home on Mohamed Adel</description>
+    <description>Recent content on johndoe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Thu, 01 Feb 2024 20:18:52 +0200</lastBuildDate><atom:link href="https://muhammedadeltaha.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://muhammedadeltaha.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data Structures</title>
-      <link>https://muhammedadeltaha.github.io/projects/data-structures/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:52 +0200</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/projects/data-structures/</guid>
-      
-      <description>Graph Hashing Heap Tree </description>
-      
+      <title>Markdown Syntax Guide</title>
+      <link>https://muhammedadeltaha.github.io/posts/markdown-syntax/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Algorithms</title>
-      <link>https://muhammedadeltaha.github.io/projects/algorithms/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:47 +0200</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/projects/algorithms/</guid>
-      
-      <description>Huffman Coding Maximum Side Length Median Finding Shortest Path Algorithms </description>
-      
+      <title>Rich Content</title>
+      <link>https://muhammedadeltaha.github.io/posts/rich-content/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/posts/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;</description>
     </item>
-    
     <item>
-      <title>Connect Four AI Agent</title>
-      <link>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:41 +0200</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</guid>
-      
-      <description>Summary Minimax with/without alpha-beta pruning and heuristic evaluation function</description>
-      
+      <title>More Rich Content</title>
+      <link>https://muhammedadeltaha.github.io/posts/more-rich-content/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/posts/more-rich-content/</guid>
+      <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;</description>
     </item>
-    
     <item>
-      <title>8 Puzzle AI Solver</title>
-      <link>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:34 +0200</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</guid>
-      
-      <description>Introduction This project discusses the main differences between the different types of AI Search Algorithms like the completeness and the optimality of the algorithm We used the 8-puzzle problem as an application that demonstrates these differences Depth First Search Data Structure: Stack Completeness: Not complete Optimality: Not optimal Time: O(bm) Space: O(b * m) b is the branching factor m is the maximum possible search tree depth DFS is good only when it comes to space complexity Breadth First Search Data Structure: Queue Completeness: Complete Optimality: Optimal Time: O(bs) Space: O(bs) b is the branching factor s is the level where the goal state is present BFS is not very well dealing with space BFS can find the optimal solution only if all costs are equal to one A* Search with Manhattan heuristic Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Manhattan distance = |x1 - x2| + |y1 - y2| A* Search with Euclidean heuristic Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Euclidean distance = √((x1 - x2)2 + (y1 - y2)2) Test Cases &amp;amp; Comparisons Test #1 Input: 1 2 3 4 5 6 8 7 0 - Unsolvable test case -</description>
-      
+      <title>Math Typesetting</title>
+      <link>https://muhammedadeltaha.github.io/posts/math-typesetting/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/posts/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Central Student Hub</title>
-      <link>https://muhammedadeltaha.github.io/projects/central-student-hub/</link>
-      <pubDate>Thu, 01 Feb 2024 20:17:39 +0200</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/projects/central-student-hub/</guid>
-      
-      <description>Summary Implemented the Controller, Service, and Repository layers in the Backend for several components like Course, Grade, and Feedback Helped in the Frontend by implementing the HTML/CSS for the Login and Sign Up pages Developed and optimized the project Database using ER-Diagrams and Normalization Reviewed the code written by my teammates to ensure high standards for our project Used Jira to introduce time estimates for a better project management process Delivered several test cases that achieved - 100% code coverage </description>
-      
+      <title>HTML and CSS only tabs</title>
+      <link>https://muhammedadeltaha.github.io/posts/html-and-css-only-tabs/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/posts/html-and-css-only-tabs/</guid>
+      <description>Shortcodes&#xD;Link to heading&#xD;The following content:&#xA;{{&amp;lt; tabgroup &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}} Hello World! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}} Goodbye Everybody! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabgroup &amp;gt;}} Will generate:&#xA;Hello&#xD;Hello World!&#xD;Goodbye&#xD;Goodbye Everybody!&#xD;Right alighment&#xD;Link to heading&#xD;You can also align the tabs to the right:&#xA;{{&amp;lt; tabgroup align=&amp;#34;right&amp;#34; &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}} Hello World! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}} Goodbye Everybody!</description>
     </item>
-    
     <item>
-      <title>Matrix Multiplication</title>
-      <link>https://muhammedadeltaha.github.io/projects/matrix-multiplication/</link>
-      <pubDate>Thu, 01 Feb 2024 20:17:33 +0200</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/projects/matrix-multiplication/</guid>
-      
-      <description>Summary Developed and optimized a multiThreaded matrix multiplication algorithm, enhancing computational efficiency for large matrices Implemented synchronization and load-balancing strategies for optimal resource utilization on multicore processors </description>
-      
+      <title>Mermaid JS support</title>
+      <link>https://muhammedadeltaha.github.io/posts/mermaid-support/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/posts/mermaid-support/</guid>
+      <description>If you want to use Mermaid-JS on your website. Provide mermaid as Shortcode in your markdown file.&#xA;flowchart LR&#xD;A --&gt; B&#xD;B --&gt; C&#xD;C --&gt; D&#xD;D --&gt; B&#xD;sequenceDiagram&#xD;participant Alice&#xD;participant Bob&#xD;Alice-&gt;&gt;Bob: Hi Bob&#xD;Bob-&gt;&gt;Alice: Hi Alice&#xD;Find more example on Mermaid-JS website.</description>
     </item>
-    
     <item>
-      <title>Game Engine</title>
-      <link>https://muhammedadeltaha.github.io/projects/game-engine/</link>
-      <pubDate>Thu, 01 Feb 2024 20:17:18 +0200</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/projects/game-engine/</guid>
-      
-      <description>Summary Implemented six distinct games, namely Tic-Tac-Toe, Connect-4, Checkers, Chess, 8-Queens, and Sudoku. Try the Demo Accomplished a substantial practical project in adherence to the Object-Oriented paradigm, centering on the implementation of abstraction concepts within the context of board games </description>
-      
+      <title>Emoji Support</title>
+      <link>https://muhammedadeltaha.github.io/posts/emoji-support/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Better Understanding for AI Search Algorithms</title>
-      <link>https://muhammedadeltaha.github.io/articles/better-understanding-for-ai-search-algorithms/</link>
-      <pubDate>Thu, 01 Feb 2024 19:58:39 +0200</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/articles/better-understanding-for-ai-search-algorithms/</guid>
-      
-      <description>Stay tuned.</description>
-      
+      <title>External Page: Hugo Coder Wiki</title>
+      <link>https://muhammedadeltaha.github.io/posts/hugo-coder-wiki/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/posts/hugo-coder-wiki/</guid>
+      <description></description>
     </item>
-    
     <item>
-      <title>Email Server</title>
-      <link>https://muhammedadeltaha.github.io/projects/email-server/</link>
-      <pubDate>Thu, 01 Feb 2024 19:48:40 +0200</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/projects/email-server/</guid>
-      
-      <description>Summary Developed an Email Server encompassing features such as add attachment, compose, star, and delete messages Implemented other features like the ability to create and delete folders, searching on messages, and sorting messages Organized the application to contain several sections like inbox, draft, starred, deleted, and contacts Improved the code design by applying several Design Patterns on the project such as Filter, Proxy, and MVC design patterns </description>
-      
+      <title>Placeholder Text</title>
+      <link>https://muhammedadeltaha.github.io/posts/placeholder-text/</link>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/posts/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Paint Application</title>
-      <link>https://muhammedadeltaha.github.io/projects/paint-application/</link>
-      <pubDate>Thu, 01 Feb 2024 08:53:04 +0200</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/projects/paint-application/</guid>
-      
-      <description>Summary Developed a comprehensive Paint Application encompassing features such as creating, modifying and deleting various shapes with the ability to clear the board, manipulate colors, copy, resize and undo/redo actions Incorporated functionality for saving and loading drawings using either XML or JSON Improved the code design by applying several Design Patterns on the project such as Factory, Memento, and MVC design patterns </description>
-      
-    </item>
-    
     <item>
       <title>About</title>
-      <link>https://muhammedadeltaha.github.io/pages/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://muhammedadeltaha.github.io/pages/about/</guid>
-      
-      <description>Skills Basics: Algorithms | Classic AI | Data Structures | Database Systems | Design Patterns | Functional Programming | Multithreading | OOP Programming Languages: C | C++ | CSS | HTML | Java | JavaScript | Prolog | Python | R (Programming Language) | TypeScript Frameworks: Angular CLI | Spring Boot Soft Skills: Code Review | Git &amp;amp; GitHub | Jira | Passionate Learner | Problem Solver | Teamwork Languages: Arabic, English – All professional proficiency or above Experience Software Engineering Intern Company: SIDPEC Skills: Software Project Management | Microsoft SQL Server | Network Security Location: Alexandria, Egypt Duration: Two weeks Education Major: Computer and Systems Engineering Department Faculty: Faculty of Engineering University: Alexandria University Country: Egypt Starting Year: 2020 Graduation Year: 2025 Courses Fall 2020-2021 Math 1 Mechanics 1 Physics 1 Engineering drawing 1 Computers &amp;amp; Programming Principles of Manufacturing Engineering English Language Spring 2020-2021 Human Rights Math 2 Mechanics 2 Physics 2 Engineering drawing 2 History of Engineering and Technology Engineering Chemistry Fall 2021-2022 Probability Theory and Computer Applications Programming I Digital Logic Design Computer and Society I Linear Algebra Fundamentals of Electrical Engineering Spring 2021-2022 Digital Systems Design Electronic Circuits and Devices Computer and Society II Differential Equations Statistical Methods for Computing Data Structures Fall 2022-2023 Numerical Computations Discrete Structures Programming II Computer Organization Human Computer Interaction Communication skills Spring 2022-2023 Technical Writing Fundamentals of Control Systems Operations Research and Optimization Techniques Data Structures and Algorithms Programming Languages Paradigms Operating Systems Fall 2023-2024 Design and Analysis of Algorithms Software Engineering Database Systems Innovation and Entrepreneurship Computer Networks Introduction to Artificial Intelligence Certificates Introduction to Scripting in Python: Certificate-Link - Coursera - September 2023 </description>
-      
+      <link>https://muhammedadeltaha.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&#xA;Hugo makes use of a variety of open source projects including:&#xA;https://github.com/yuin/goldmark https://github.</description>
     </item>
-    
+    <item>
+      <title>Contact</title>
+      <link>https://muhammedadeltaha.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/contact/</guid>
+      <description>Follow me, @johndoe.</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://muhammedadeltaha.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/</guid>
+      <description>Nothing to see here&amp;hellip; Move along!</description>
+    </item>
   </channel>
 </rss>
