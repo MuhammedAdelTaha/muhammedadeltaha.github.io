@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Mohamed Adel</title>
+    <link>https://muhammedadeltaha.github.io/tags/react/</link>
+    <description>Recent content in React on Mohamed Adel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 20:17:39 +0200</lastBuildDate>
+    <atom:link href="https://muhammedadeltaha.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Central Student Hub</title>
+      <link>https://muhammedadeltaha.github.io/projects/central-student-hub/</link>
+      <pubDate>Thu, 01 Feb 2024 20:17:39 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/central-student-hub/</guid>
+      <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Implemented the Controller, Service, and Repository layers in the Backend for several components like Course, Grade, and Feedback Helped in the Frontend by implementing the HTML/CSS for the Login and Sign Up pages Developed and optimized the project Database using ER-Diagrams and Normalization Reviewed the code written by my teammates to ensure high standards for our project Used Jira to introduce time estimates for a better project management process Delivered several test cases that achieved - 100% code coverage </description>
+    </item>
+  </channel>
+</rss>

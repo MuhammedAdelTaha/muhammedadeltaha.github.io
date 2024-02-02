@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Mohamed Adel</title>
+    <link>https://muhammedadeltaha.github.io/tags/games/</link>
+    <description>Recent content in Games on Mohamed Adel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 20:18:41 +0200</lastBuildDate>
+    <atom:link href="https://muhammedadeltaha.github.io/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect Four AI Agent</title>
+      <link>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</link>
+      <pubDate>Thu, 01 Feb 2024 20:18:41 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Minimax with/without alpha-beta pruning and heuristic evaluation function</description>
+    </item>
+    <item>
+      <title>8 Puzzle AI Solver</title>
+      <link>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</link>
+      <pubDate>Thu, 01 Feb 2024 20:18:34 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Introduction Depth First Search Breadth First Search A* Search with Manhattan heuristic A* Search with Euclidean heuristic Test Cases &amp;amp; Comparisons Observation Introduction&#xD;Link to heading&#xD;This project discusses the main differences between the different types of AI Search Algorithms like the completeness and the optimality of the algorithm We used the 8-puzzle problem as an application that demonstrates these differences Depth First Search&#xD;Link to heading&#xD;Data Structure: Stack Completeness: Not complete Optimality: Not optimal Time: O(b ^ m) Space: O(b * m) b is the branching factor m is the maximum possible search tree depth DFS is good only when it comes to space complexity Breadth First Search&#xD;Link to heading&#xD;Data Structure: Queue Completeness: Complete Optimality: Optimal Time: O(b ^ s) Space: O(b ^ s) b is the branching factor s is the level where the goal state is present BFS is not very well dealing with space BFS can find the optimal solution only if all costs are equal to one A* Search with Manhattan heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Manhattan distance = |x1 - x2| + |y1 - y2| A* Search with Euclidean heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Euclidean distance = √((x1 - x2) ^ 2 + (y1 - y2) ^ 2) Test Cases &amp;amp; Comparisons&#xD;Link to heading&#xD;Test #1&#xD;Link to heading&#xD;Input: 1 2 3 4 5 6 8 7 0 - Unsolvable test case -</description>
+    </item>
+    <item>
+      <title>Game Engine</title>
+      <link>https://muhammedadeltaha.github.io/projects/game-engine/</link>
+      <pubDate>Thu, 01 Feb 2024 20:17:18 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/game-engine/</guid>
+      <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Implemented six distinct games, namely Tic-Tac-Toe, Connect-4, Checkers, Chess, 8-Queens, and Sudoku. Try the Demo Accomplished a substantial practical project in adherence to the Object-Oriented paradigm, centering on the implementation of abstraction concepts within the context of board games </description>
+    </item>
+  </channel>
+</rss>

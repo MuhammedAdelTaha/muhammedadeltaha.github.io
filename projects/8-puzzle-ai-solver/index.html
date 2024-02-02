@@ -164,11 +164,7 @@
           <div class="tags">
   <i class="fa-solid fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="/tags/ai/">AI</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
-      <a href="/tags/search-algorithms/">Search Algorithms</a>
+      <a href="/tags/artificial-intelligence/">Artificial Intelligence</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
@@ -176,7 +172,19 @@
     </span>
       <span class="separator">•</span>
     <span class="tag">
+      <a href="/tags/search-algorithms/">Search Algorithms</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
       <a href="/tags/python/">Python</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/games/">Games</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/gui/">GUI</a>
     </span></div>
 
         </div>
@@ -222,7 +230,7 @@
 <li><strong>Data Structure:</strong> Stack</li>
 <li><strong>Completeness:</strong> Not complete</li>
 <li><strong>Optimality:</strong> Not optimal</li>
-<li><strong>Time:</strong> O(b<!-- raw HTML omitted -->m<!-- raw HTML omitted -->)</li>
+<li><strong>Time:</strong> O(b ^ m)</li>
 <li><strong>Space:</strong> O(b * m)</li>
 <li><strong>b</strong> is the branching factor</li>
 <li><strong>m</strong> is the maximum possible search tree depth</li>
@@ -239,8 +247,8 @@
 <li><strong>Data Structure:</strong> Queue</li>
 <li><strong>Completeness:</strong> Complete</li>
 <li><strong>Optimality:</strong> Optimal</li>
-<li><strong>Time:</strong> O(b<!-- raw HTML omitted -->s<!-- raw HTML omitted -->)</li>
-<li><strong>Space:</strong> O(b<!-- raw HTML omitted -->s<!-- raw HTML omitted -->)</li>
+<li><strong>Time:</strong> O(b ^ s)</li>
+<li><strong>Space:</strong> O(b ^ s)</li>
 <li><strong>b</strong> is the branching factor</li>
 <li><strong>s</strong> is the level where the goal state is present</li>
 <li>BFS is not very well dealing with space</li>
@@ -259,7 +267,7 @@
 <li><strong>Optimality:</strong> Optimal</li>
 <li>A* Search Always finds the optimal solution</li>
 <li>A* Search considers the past cost and the upcoming heuristic cost</li>
-<li>Manhattan distance = |x<!-- raw HTML omitted -->1<!-- raw HTML omitted --> - x<!-- raw HTML omitted -->2<!-- raw HTML omitted -->| + |y<!-- raw HTML omitted -->1<!-- raw HTML omitted --> - y<!-- raw HTML omitted -->2<!-- raw HTML omitted -->|</li>
+<li>Manhattan distance = |x1 - x2| + |y1 - y2|</li>
 </ul>
 <h2 id="a-search-with-euclidean-heuristic">
   A* Search with Euclidean heuristic
@@ -274,7 +282,7 @@
 <li><strong>Optimality:</strong> Optimal</li>
 <li>A* Search Always finds the optimal solution</li>
 <li>A* Search considers the past cost and the upcoming heuristic cost</li>
-<li>Euclidean distance = √((x<!-- raw HTML omitted -->1<!-- raw HTML omitted --> - x<!-- raw HTML omitted -->2<!-- raw HTML omitted -->)<!-- raw HTML omitted -->2<!-- raw HTML omitted --> + (y<!-- raw HTML omitted -->1<!-- raw HTML omitted --> - y<!-- raw HTML omitted -->2<!-- raw HTML omitted -->)<!-- raw HTML omitted -->2<!-- raw HTML omitted -->)</li>
+<li>Euclidean distance = √((x1 - x2) ^ 2 + (y1 - y2) ^ 2)</li>
 </ul>
 <h2 id="test-cases--comparisons">
   Test Cases &amp; Comparisons

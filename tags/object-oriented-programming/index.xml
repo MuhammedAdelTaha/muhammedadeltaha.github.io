@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Object-Oriented Programming on Mohamed Adel</title>
+    <link>https://muhammedadeltaha.github.io/tags/object-oriented-programming/</link>
+    <description>Recent content in Object-Oriented Programming on Mohamed Adel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 20:17:18 +0200</lastBuildDate>
+    <atom:link href="https://muhammedadeltaha.github.io/tags/object-oriented-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Engine</title>
+      <link>https://muhammedadeltaha.github.io/projects/game-engine/</link>
+      <pubDate>Thu, 01 Feb 2024 20:17:18 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/game-engine/</guid>
+      <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Implemented six distinct games, namely Tic-Tac-Toe, Connect-4, Checkers, Chess, 8-Queens, and Sudoku. Try the Demo Accomplished a substantial practical project in adherence to the Object-Oriented paradigm, centering on the implementation of abstraction concepts within the context of board games </description>
+    </item>
+  </channel>
+</rss>

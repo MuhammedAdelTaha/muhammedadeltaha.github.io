@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C Programming on Mohamed Adel</title>
+    <link>https://muhammedadeltaha.github.io/tags/c-programming/</link>
+    <description>Recent content in C Programming on Mohamed Adel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 20:17:33 +0200</lastBuildDate>
+    <atom:link href="https://muhammedadeltaha.github.io/tags/c-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matrix Multiplication</title>
+      <link>https://muhammedadeltaha.github.io/projects/matrix-multiplication/</link>
+      <pubDate>Thu, 01 Feb 2024 20:17:33 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/matrix-multiplication/</guid>
+      <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Developed and optimized a multithreading matrix multiplication algorithm, enhancing computational efficiency for large matrices Implemented synchronization and load-balancing strategies for optimal resource utilization on multicore processors </description>
+    </item>
+  </channel>
+</rss>
