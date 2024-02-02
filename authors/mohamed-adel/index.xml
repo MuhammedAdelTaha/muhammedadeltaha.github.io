@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mohamed Adel</title>
+    <link>https://muhammedadeltaha.github.io/authors/mohamed-adel/</link>
+    <description>Recent content on Mohamed Adel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 02 Feb 2024 23:53:51 +0200</lastBuildDate>
+    <atom:link href="https://muhammedadeltaha.github.io/authors/mohamed-adel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Better Understanding for AI Search Algorithms</title>
+      <link>https://muhammedadeltaha.github.io/articles/better-understanding-for-ai-search-algorithms/</link>
+      <pubDate>Fri, 02 Feb 2024 23:53:51 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/articles/better-understanding-for-ai-search-algorithms/</guid>
+      <description>Stay tuned. This article is coming soon.</description>
+    </item>
+    <item>
+      <title>8 Puzzle AI Solver</title>
+      <link>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</link>
+      <pubDate>Thu, 01 Feb 2024 20:18:34 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Introduction Depth First Search Breadth First Search A* Search with Manhattan heuristic A* Search with Euclidean heuristic Test Cases &amp;amp; Comparisons Observation Introduction&#xD;Link to heading&#xD;This project discusses the main differences between the different types of AI Search Algorithms like the completeness and the optimality of the algorithm We used the 8-puzzle problem as an application that demonstrates these differences Depth First Search&#xD;Link to heading&#xD;Data Structure: Stack Completeness: Not complete Optimality: Not optimal Time: O(bm) Space: O(b * m) b is the branching factor m is the maximum possible search tree depth DFS is good only when it comes to space complexity Breadth First Search&#xD;Link to heading&#xD;Data Structure: Queue Completeness: Complete Optimality: Optimal Time: O(bs) Space: O(bs) b is the branching factor s is the level where the goal state is present BFS is not very well dealing with space BFS can find the optimal solution only if all costs are equal to one A* Search with Manhattan heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Manhattan distance = |x1 - x2| + |y1 - y2| A* Search with Euclidean heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Euclidean distance = √((x1 - x2)2 + (y1 - y2)2) Test Cases &amp;amp; Comparisons&#xD;Link to heading&#xD;Test #1&#xD;Link to heading&#xD;Input: 1 2 3 4 5 6 8 7 0 - Unsolvable test case -</description>
+    </item>
+  </channel>
+</rss>
