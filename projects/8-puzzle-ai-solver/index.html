@@ -230,8 +230,8 @@
 <li><strong>Data Structure:</strong> Stack</li>
 <li><strong>Completeness:</strong> Not complete</li>
 <li><strong>Optimality:</strong> Not optimal</li>
-<li><strong>Time:</strong> O(b ^ m)</li>
-<li><strong>Space:</strong> O(b * m)</li>
+<li><strong>Time:</strong> O($ b^m $)</li>
+<li><strong>Space:</strong> O($ b*m $)</li>
 <li><strong>b</strong> is the branching factor</li>
 <li><strong>m</strong> is the maximum possible search tree depth</li>
 <li>DFS is good only when it comes to space complexity</li>
@@ -247,8 +247,8 @@
 <li><strong>Data Structure:</strong> Queue</li>
 <li><strong>Completeness:</strong> Complete</li>
 <li><strong>Optimality:</strong> Optimal</li>
-<li><strong>Time:</strong> O(b ^ s)</li>
-<li><strong>Space:</strong> O(b ^ s)</li>
+<li><strong>Time:</strong> O($ b^s $)</li>
+<li><strong>Space:</strong> O($ b^s $)</li>
 <li><strong>b</strong> is the branching factor</li>
 <li><strong>s</strong> is the level where the goal state is present</li>
 <li>BFS is not very well dealing with space</li>
@@ -267,7 +267,7 @@
 <li><strong>Optimality:</strong> Optimal</li>
 <li>A* Search Always finds the optimal solution</li>
 <li>A* Search considers the past cost and the upcoming heuristic cost</li>
-<li>Manhattan distance = |x1 - x2| + |y1 - y2|</li>
+<li>Manhattan distance = $| x_1 - x_2 | + | y_1 - y_2 |$</li>
 </ul>
 <h2 id="a-search-with-euclidean-heuristic">
   A* Search with Euclidean heuristic
@@ -282,7 +282,7 @@
 <li><strong>Optimality:</strong> Optimal</li>
 <li>A* Search Always finds the optimal solution</li>
 <li>A* Search considers the past cost and the upcoming heuristic cost</li>
-<li>Euclidean distance = √((x1 - x2) ^ 2 + (y1 - y2) ^ 2)</li>
+<li>Euclidean distance = $\sqrt{ (x_1 - x_2)^2 + (y_1 - y_2)^2 }$</li>
 </ul>
 <h2 id="test-cases--comparisons">
   Test Cases &amp; Comparisons
@@ -550,7 +550,7 @@
 <li>
 <p>A* Manhattan time is less than time of A* Euclidean</p>
 <ul>
-<li>Reasoning: that Manhattan distance and Euclidean are both admissible but Manhattan distance is larger than Euclidean distance</li>
+<li><strong>Reasoning:</strong> that Manhattan distance and Euclidean are both admissible but Manhattan distance is larger than Euclidean distance</li>
 </ul>
 </li>
 <li>
@@ -559,7 +559,38 @@
 </ul>
 
       </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
     </article>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
   </section>
 
     </div>
