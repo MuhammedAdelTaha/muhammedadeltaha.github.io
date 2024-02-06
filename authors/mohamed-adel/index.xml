@@ -13,7 +13,7 @@
       <link>https://muhammedadeltaha.github.io/articles/better-understanding-for-ai-search-algorithms/</link>
       <pubDate>Fri, 02 Feb 2024 23:53:51 +0200</pubDate>
       <guid>https://muhammedadeltaha.github.io/articles/better-understanding-for-ai-search-algorithms/</guid>
-      <description>Stay tuned. This article is coming soon.</description>
+      <description>Table of Contents&#xD;Link to heading&#xD;Main Idea Types of AI Search Algorithms Uninformed Search Algorithms Depth-First Search (DFS) Breadth-First Search (BFS) Depth-Limited Search (DLS) Iterative Deepening DFS (ID-DFS) Uniform Cost Search (UCS) Main Idea&#xD;Link to heading&#xD;Let us imagine that Engineers do not yet implement these kinds of algorithms, and we have to think about modeling a life problem into a graph that represents all the states that this problem could be in.</description>
     </item>
     <item>
       <title>Data Structures</title>
