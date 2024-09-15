@@ -6,14 +6,21 @@
     <description>Recent content in Artificial Intelligence on Mohamed Adel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Feb 2024 23:53:51 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2024 21:10:29 +0300</lastBuildDate>
     <atom:link href="https://muhammedadeltaha.github.io/categories/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Better Understanding for AI Search Algorithms</title>
-      <link>https://muhammedadeltaha.github.io/articles/better-understanding-for-ai-search-algorithms/</link>
+      <title>Better Understanding of Linear Regression</title>
+      <link>https://muhammedadeltaha.github.io/articles/better-understanding-of-linear-regression/</link>
+      <pubDate>Sat, 14 Sep 2024 21:10:29 +0300</pubDate>
+      <guid>https://muhammedadeltaha.github.io/articles/better-understanding-of-linear-regression/</guid>
+      <description>Created by the Author with Copilot&#xD;Table of Contents&#xD;Link to heading&#xD;Main Idea LMS Algorithm The Normal Equation Probabilistic Interpretation Locally Weighted Linear Regression Main Idea&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;LMS Algorithm&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;The Normal Equation&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;Probabilistic Interpretation&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;Locally Weighted Linear Regression&#xD;Link to heading&#xD;Coming soon&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Better Understanding of AI Search Algorithms</title>
+      <link>https://muhammedadeltaha.github.io/articles/better-understanding-of-ai-search-algorithms/</link>
       <pubDate>Fri, 02 Feb 2024 23:53:51 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/articles/better-understanding-for-ai-search-algorithms/</guid>
-      <description>Table of Contents&#xD;Link to heading&#xD;Main Idea Types of AI Search Algorithms Uninformed Search Algorithms Depth-First Search (DFS) Breadth-First Search (BFS) Depth-Limited Search (DLS) Iterative Deepening DFS (ID-DFS) Uniform Cost Search (UCS) Main Idea&#xD;Link to heading&#xD;Let us imagine that Engineers do not yet implement these kinds of algorithms, and we have to think about modeling a life problem into a graph that represents all the states that this problem could be in.</description>
+      <guid>https://muhammedadeltaha.github.io/articles/better-understanding-of-ai-search-algorithms/</guid>
+      <description>Created by the Author with Copilot&#xD;Table of Contents&#xD;Link to heading&#xD;Main Idea Types of AI Search Algorithms Uninformed Search Algorithms Depth-First Search (DFS) Breadth-First Search (BFS) Depth-Limited Search (DLS) Iterative Deepening DFS (ID-DFS) Uniform Cost Search (UCS) Main Idea&#xD;Link to heading&#xD;Let us imagine that Engineers do not yet implement these kinds of algorithms, and we have to think about modeling a life problem into a graph that represents all the states that this problem could be in.</description>
     </item>
     <item>
       <title>Connect Four AI Agent</title>
