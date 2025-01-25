@@ -205,8 +205,8 @@ We will cover Depth-First Search (DFS), Breadth-First Search (BFS), Depth-Limite
 <figure>
     
         <img src="background.jpeg" title="Created by the Author with Copilot" alt="Created by the Author with Copilot" width="100%"
-             height="" style="float: none; border-radius: 15px;
-             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin-right: 5px">
+             height="" style="float: none; border-radius: 10px;
+             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin: 5px;">
     
     
         <figcaption style="font-size: 16px"><b></b> Created by the Author with Copilot</figcaption>
@@ -232,7 +232,6 @@ We will cover Depth-First Search (DFS), Breadth-First Search (BFS), Depth-Limite
 </ul>
 </li>
 </ul>
-<hr>
 <h2 id="main-idea">
   Main Idea
   <a class="heading-link" href="#main-idea">
@@ -260,7 +259,6 @@ For sure, the solution to our problem is a state in this graph.</p>
   <div class="notice-content">This is just a way of thinking about search techniques, not some theoretical perspective of AI search.</div>
 </div>
 
-<hr>
 <h2 id="types-of-ai-search-algorithms">
   Types of AI Search Algorithms
   <a class="heading-link" href="#types-of-ai-search-algorithms">
@@ -290,9 +288,9 @@ We just need to find the path to this state from any given initial state.</p>
 
 <figure>
     
-        <img src="fig1.svg" title="Goal state in 8-puzzle problem" alt="Goal state in 8-puzzle problem" width="90%"
-             height="200px" style="float: none; border-radius: 15px;
-             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin-right: 5px">
+        <img src="fig1.svg" title="Goal state in 8-puzzle problem" alt="Goal state in 8-puzzle problem" width="fit-content"
+             height="100%" style="float: none; border-radius: 10px;
+             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin: 5px;">
     
     
         <figcaption style="font-size: 16px"><b>Figure 1:</b> Goal state in 8-puzzle problem</figcaption>
@@ -325,8 +323,8 @@ because we have constraints that we should satisfy to reach a valid solution to 
 <figure>
     
         <img src="fig2.png" title="Example of a CSP problem (Map Coloring)" alt="Example of a CSP problem (Map Coloring)" width="50%"
-             height="100%" style="float: none; border-radius: 15px;
-             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin-right: 5px">
+             height="100%" style="float: none; border-radius: 10px;
+             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin: 5px;">
     
     
         <figcaption style="font-size: 16px"><b>Figure 2:</b> Example of a CSP problem (Map Coloring)</figcaption>
@@ -348,7 +346,6 @@ because we have constraints that we should satisfy to reach a valid solution to 
 <li><strong>Space complexity:</strong> required space for the algorithm to find the solution?</li>
 </ul>
 <p>In this story, we will focus on uninformed search algorithms.</p>
-<hr>
 <h2 id="uninformed-search-algorithms">
   Uninformed Search Algorithms
   <a class="heading-link" href="#uninformed-search-algorithms">
@@ -372,7 +369,6 @@ because we have constraints that we should satisfy to reach a valid solution to 
 </ul>
 <p>These Algorithms differ only in the successor function, which is the states to be explored next.
 We use different data structures usually called fringe or frontier to control these exploration techniques.</p>
-<hr>
 <h3 id="depth-first-search-dfs">
   Depth-First Search (DFS)
   <a class="heading-link" href="#depth-first-search-dfs">
@@ -532,14 +528,13 @@ presented in the branch from the initial state to the goal state like in <strong
 <figure>
     
         <img src="fig4.svg" title="Visualization of the nodes pushed into the frontier in DFS" alt="Visualization of the nodes pushed into the frontier in DFS" width="90%"
-             height="100%" style="float: none; border-radius: 15px;
-             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin-right: 5px">
+             height="100%" style="float: none; border-radius: 10px;
+             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin: 5px;">
     
     
         <figcaption style="font-size: 16px"><b>Figure 4:</b> Visualization of the nodes pushed into the frontier in DFS</figcaption>
     
 </figure>
-<hr>
 <h3 id="breadth-first-search-bfs">
   Breadth-First Search (BFS)
   <a class="heading-link" href="#breadth-first-search-bfs">
@@ -667,14 +662,13 @@ The worst-case scenario that our goal is a leaf node, so our frontier will conta
 <figure>
     
         <img src="fig6.svg" title="Visualization of the nodes pushed into the frontier in BFS" alt="Visualization of the nodes pushed into the frontier in BFS" width="90%"
-             height="100%" style="float: none; border-radius: 15px;
-             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin-right: 5px">
+             height="100%" style="float: none; border-radius: 10px;
+             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin: 5px;">
     
     
         <figcaption style="font-size: 16px"><b>Figure 6:</b> Visualization of the nodes pushed into the frontier in BFS</figcaption>
     
 </figure>
-<hr>
 <h3 id="depth-limited-search-dls">
   Depth-Limited Search (DLS)
   <a class="heading-link" href="#depth-limited-search-dls">
@@ -703,8 +697,8 @@ But the difference here that we explore until we reach a specific depth.</p>
 <figure>
     
         <img src="fig7.gif" title="DLS Visualization" alt="DLS Visualization" width="90%"
-             height="100%" style="float: none; border-radius: 15px;
-             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin-right: 5px">
+             height="100%" style="float: none; border-radius: 10px;
+             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin: 5px;">
     
     
         <figcaption style="font-size: 16px"><b>Figure 7:</b> DLS Visualization</figcaption>
@@ -786,7 +780,6 @@ The goal state may lie in the next level like in <strong>[Figure 7]</strong>.</p
 </h4>
 <p>Same as DFS, but with depth (d) (the maximum depth).</p>
 <p>Space complexity = $O(b*d)$</p>
-<hr>
 <h3 id="iterative-deepening-dfs-id-dfs">
   Iterative Deepening DFS (ID-DFS)
   <a class="heading-link" href="#iterative-deepening-dfs-id-dfs">
@@ -815,8 +808,8 @@ Like in <strong>[Figure 8]</strong>.</p>
 <figure>
     
         <img src="fig8.gif" title="ID-DFS Visualization" alt="ID-DFS Visualization" width="90%"
-             height="100%" style="float: none; border-radius: 15px;
-             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin-right: 5px">
+             height="100%" style="float: none; border-radius: 10px;
+             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin: 5px;">
     
     
         <figcaption style="font-size: 16px"><b>Figure 8:</b> ID-DFS Visualization</figcaption>
@@ -911,7 +904,6 @@ So, the time complexity will be the sum of the time complexity of DLS for each d
 </h4>
 <p>The space complexity will be the space complexity of DLS for the maximum depth.</p>
 <p>Space complexity = $O(b*m)$</p>
-<hr>
 <h3 id="uniform-cost-search-ucs">
   Uniform Cost Search (UCS)
   <a class="heading-link" href="#uniform-cost-search-ucs">
@@ -939,8 +931,8 @@ So, the time complexity will be the sum of the time complexity of DLS for each d
 <figure>
     
         <img src="fig9.gif" title="UCS Visualization" alt="UCS Visualization" width="70%"
-             height="100%" style="float: none; border-radius: 15px;
-             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin-right: 5px">
+             height="100%" style="float: none; border-radius: 10px;
+             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin: 5px;">
     
     
         <figcaption style="font-size: 16px"><b>Figure 9:</b> UCS Visualization</figcaption>
@@ -1063,7 +1055,7 @@ If that solution costs C* and arcs cost at least $\epsilon$, then the <strong>ef
 
     <footer class="footer">
   <section class="container">
-    Happy Coding in 2024 😊
+    Happy Coding in 2025 😊
   </section>
 </footer>
 

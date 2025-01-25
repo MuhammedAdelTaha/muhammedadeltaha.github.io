@@ -62,7 +62,7 @@
       <link>https://muhammedadeltaha.github.io/projects/game-engine/</link>
       <pubDate>Thu, 01 Feb 2024 20:17:18 +0200</pubDate>
       <guid>https://muhammedadeltaha.github.io/projects/game-engine/</guid>
-      <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Implemented six distinct games, namely Tic-Tac-Toe, Connect-4, Checkers, Chess, 8-Queens, and Sudoku. Try the Demo Accomplished a substantial practical project in adherence to the Object-Oriented paradigm, centering on the implementation of abstraction concepts within the context of board games </description>
+      <description>Demo&#xD;Link to heading&#xD;Table of Contents&#xD;Link to heading&#xD;Game Engine Architecture Code Structure Core OOP Architecture Base Game Engine Class Game Implementation Structure Key Design Patterns Template Method Pattern Factory Pattern Polymorphism Scalability Features Component Isolation State Management Asset Management Adding a New Game (3 Steps) Architecture Benefits Game Engine Architecture&#xD;Link to heading&#xD;A modular game engine built with JavaScript and OOP principles, designed to easily integrate multiple board games while maintaining a consistent architecture.</description>
     </item>
     <item>
       <title>Email Server</title>
