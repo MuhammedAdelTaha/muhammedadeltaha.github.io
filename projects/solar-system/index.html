@@ -23,8 +23,8 @@
 <meta property="og:description" content="A simple graphics project to visualize the solar system." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://muhammedadeltaha.github.io/projects/solar-system/" /><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2024-09-02T23:03:16+03:00" />
-<meta property="article:modified_time" content="2024-09-02T23:03:16+03:00" />
+<meta property="article:published_time" content="2025-01-26T23:03:16+03:00" />
+<meta property="article:modified_time" content="2025-01-26T23:03:16+03:00" />
 
 
 
@@ -144,13 +144,13 @@
           <div class="date">
             <span class="posted-on">
               <i class="fa-solid fa-calendar" aria-hidden="true"></i>
-              <time datetime="2024-09-02T23:03:16&#43;03:00">
-                September 2, 2024
+              <time datetime="2025-01-26T23:03:16&#43;03:00">
+                January 26, 2025
               </time>
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              One-minute read
+              3-minute read
             </span>
           </div>
           <div class="authors">
@@ -159,14 +159,10 @@
 
           <div class="categories">
   <i class="fa-solid fa-folder" aria-hidden="true"></i>
-    <a href="/categories/graphics/">Graphics</a></div>
+    <a href="/categories/computer-graphics/">Computer Graphics</a></div>
 
           <div class="tags">
   <i class="fa-solid fa-tag" aria-hidden="true"></i>
-    <span class="tag">
-      <a href="/tags/graphics/">Graphics</a>
-    </span>
-      <span class="separator">•</span>
     <span class="tag">
       <a href="/tags/opengl/">OpenGL</a>
     </span>
@@ -180,7 +176,246 @@
 
       <div class="post-content">
         
-        
+        <h1 id="table-of-contents">
+  Table of Contents
+  <a class="heading-link" href="#table-of-contents">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<ul>
+<li><a href="#code-architecture-overview" >Code Architecture Overview</a>
+<ul>
+<li><a href="#shaders" >Shaders</a></li>
+<li><a href="#materials" >Materials</a></li>
+<li><a href="#buffers--layouts" >Buffers &amp; Layouts</a></li>
+<li><a href="#textures" >Textures</a></li>
+<li><a href="#shapes" >Shapes</a></li>
+<li><a href="#renderer" >Renderer</a></li>
+<li><a href="#camera" >Camera</a></li>
+<li><a href="#debugger" >Debugger</a></li>
+</ul>
+</li>
+<li><a href="#oop-concepts-in-rendering-loop" >OOP Concepts in Rendering Loop</a>
+<ul>
+<li><a href="#inheritance--polymorphism" >Inheritance &amp; Polymorphism</a></li>
+<li><a href="#encapsulation" >Encapsulation</a></li>
+<li><a href="#separation-of-concerns" >Separation of Concerns</a></li>
+</ul>
+</li>
+<li><a href="#how-the-rendering-loop-works" >How the Rendering Loop Works</a></li>
+<li><a href="#demo-video" >Demo Video</a></li>
+</ul>
+<h2 id="code-architecture-overview">
+  Code Architecture Overview
+  <a class="heading-link" href="#code-architecture-overview">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>This project simulates a 3D solar system using OpenGL. Below is a breakdown of the key parts and their roles.</p>
+<h3 id="shaders">
+  Shaders
+  <a class="heading-link" href="#shaders">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Color.shader:</strong> Renders objects with a solid color. Uses <code>u_Color</code> uniform for coloring.</li>
+<li><strong>Texture.shader:</strong>
+<ul>
+<li>Supports texture mapping and Phong lighting (ambient, diffuse, specular).</li>
+<li>Vertex shader computes normals and positions for lighting.</li>
+<li>Fragment shader blends textures with dynamic light calculations.</li>
+</ul>
+</li>
+</ul>
+<h3 id="materials">
+  Materials
+  <a class="heading-link" href="#materials">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Material (Base Class):</strong>
+<ul>
+<li>Manages transformations (translation, scaling, rotation) and shader uniforms (<code>u_ModelMat</code>, <code>u_ViewMat</code>, <code>u_ProjectionMat</code>).</li>
+<li>Abstract class with <code>setColorTexture()</code> as a pure virtual method.</li>
+</ul>
+</li>
+<li><strong>ColorMaterial:</strong>
+<ul>
+<li>Inherits from <code>Material</code>. Sets a uniform color via <code>u_Color</code>.</li>
+</ul>
+</li>
+<li><strong>TextureMaterial:</strong>
+<ul>
+<li>Inherits from <code>Material</code>. Binds textures and sets opacity via <code>u_TexOpacity</code>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="buffers--layouts">
+  Buffers &amp; Layouts
+  <a class="heading-link" href="#buffers--layouts">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>VertexBuffer:</strong> Stores vertex data (positions, UVs, normals).</li>
+<li><strong>ElementBuffer:</strong> Stores indices for indexed rendering.</li>
+<li><strong>VertexArray:</strong> Manages vertex attributes and buffer bindings.</li>
+<li><strong>VertexBufferLayout:</strong> Defines vertex attribute formats (e.g., <code>position: vec3</code>, <code>UV: vec2</code>, <code>normal: vec3</code>).</li>
+</ul>
+<h3 id="textures">
+  Textures
+  <a class="heading-link" href="#textures">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Loads images (e.g., planet textures) using <code>stb_image</code>, binds to OpenGL texture slots.</li>
+<li>Textures are applied to <code>TextureMaterial</code> objects (e.g., sun, planets).</li>
+</ul>
+<h3 id="shapes">
+  Shapes
+  <a class="heading-link" href="#shapes">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong><code>getCube()</code>:</strong> Generates vertices and indices for a cube (used for the skybox).</li>
+<li><strong><code>getSphere()</code>:</strong> Generates a UV-sphere mesh with normals (used for planets).</li>
+</ul>
+<h3 id="renderer">
+  Renderer
+  <a class="heading-link" href="#renderer">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong><code>draw()</code>:</strong> Binds VAO/EBO/shader and issues <code>glDrawElements</code>.</li>
+<li><strong><code>clear()</code>:</strong> Clears color and depth buffers.</li>
+</ul>
+<h3 id="camera">
+  Camera
+  <a class="heading-link" href="#camera">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Manages view/projection matrices and FOV.</li>
+<li>Processes keyboard (WASD) and mouse input for movement/orbiting.</li>
+<li>Supports zoom via scroll.</li>
+</ul>
+<h3 id="debugger">
+  Debugger
+  <a class="heading-link" href="#debugger">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Macros:</strong> <code>glCall</code>, <code>ASSERT</code> wrap OpenGL calls to catch and log errors.</li>
+<li><strong>Functions:</strong> <code>glClearError()</code>, <code>glLogCall()</code> for error checking.</li>
+</ul>
+<h2 id="oop-concepts-in-rendering-loop">
+  OOP Concepts in Rendering Loop
+  <a class="heading-link" href="#oop-concepts-in-rendering-loop">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="inheritance--polymorphism">
+  Inheritance &amp; Polymorphism
+  <a class="heading-link" href="#inheritance--polymorphism">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Base Class <code>Material</code>:</strong> Defines common interfaces (<code>updateModelMat()</code>, <code>setColorTexture()</code>).</li>
+<li><strong>Derived Classes:</strong> <code>ColorMaterial</code> and <code>TextureMaterial</code> override <code>setColorTexture()</code> to handle color/texture-specific logic.</li>
+<li><strong>Polymorphic Array:</strong> All materials are stored as <code>Material*</code> pointers, enabling unified rendering:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">Material</span><span class="o">*</span> <span class="n">materials</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span> <span class="n">sunLight</span><span class="p">,</span> <span class="n">sun</span><span class="p">,</span> <span class="n">mercury</span><span class="p">,</span> <span class="p">...</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="n">Material</span><span class="o">*</span> <span class="nl">material</span> <span class="p">:</span> <span class="n">materials</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">material</span><span class="o">-&gt;</span><span class="n">setColorTexture</span><span class="p">();</span> <span class="c1">// Calls overridden method
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">material</span><span class="o">-&gt;</span><span class="n">updateModelMat</span><span class="p">(</span><span class="n">deltaTime</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">renderer</span><span class="p">.</span><span class="n">draw</span><span class="p">(...);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="encapsulation">
+  Encapsulation
+  <a class="heading-link" href="#encapsulation">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Classes encapsulate OpenGL resources (e.g., <code>VertexBuffer</code>, <code>Texture</code>) with RAII:
+<ul>
+<li>Resources are initialized in constructors and released in destructors.</li>
+</ul>
+</li>
+<li>Camera state (position, rotation) is managed internally, exposed via matrices.</li>
+</ul>
+<h3 id="separation-of-concerns">
+  Separation of Concerns
+  <a class="heading-link" href="#separation-of-concerns">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Shaders</strong> handle lighting/texturing logic.</li>
+<li><strong>Materials</strong> manage object-specific properties (transformations, colors/textures).</li>
+<li><strong>Renderer/Camera</strong> abstract low-level OpenGL details.</li>
+</ul>
+<h2 id="how-the-rendering-loop-works">
+  How the Rendering Loop Works
+  <a class="heading-link" href="#how-the-rendering-loop-works">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li><strong>Initialization:</strong>
+<ul>
+<li>Load shaders, textures, and create VAOs/VBOs for shapes.</li>
+<li>Instantiate materials (e.g., <code>sun</code>, <code>earth</code>) with unique transforms and properties.</li>
+</ul>
+</li>
+<li><strong>Per-Frame Updates:</strong>
+<ul>
+<li>Process input to update camera.</li>
+<li>Compute view/projection matrices.</li>
+</ul>
+</li>
+<li><strong>Drawing:</strong>
+<ul>
+<li>Render the skybox (<code>space</code> object) first.</li>
+<li>Iterate over all <code>Material</code> objects, updating their transforms and binding resources.</li>
+<li>Use <code>Renderer::draw()</code> to render each object with its VAO/EBO and shader.</li>
+</ul>
+</li>
+</ol>
+<p>This architecture ensures flexibility (e.g., adding new materials) and efficiency (shared rendering logic).
+The use of OOP principles keeps the code modular and maintainable.</p>
+<h2 id="demo-video">
+  Demo Video
+  <a class="heading-link" href="#demo-video">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+
 
 
 

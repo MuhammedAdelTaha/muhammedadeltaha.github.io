@@ -6,14 +6,21 @@
     <description>Recent content in Artificial Intelligence on Mohamed Adel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Sep 2024 21:10:29 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 20:18:41 +0200</lastBuildDate>
     <atom:link href="https://muhammedadeltaha.github.io/categories/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Better Understanding of Linear Regression</title>
-      <link>https://muhammedadeltaha.github.io/articles/better-understanding-of-linear-regression/</link>
-      <pubDate>Sat, 14 Sep 2024 21:10:29 +0300</pubDate>
-      <guid>https://muhammedadeltaha.github.io/articles/better-understanding-of-linear-regression/</guid>
-      <description>Created by the Author with Copilot&#xD;Table of Contents&#xD;Link to heading&#xD;Main Idea LMS Algorithm The Normal Equation Probabilistic Interpretation Locally Weighted Linear Regression Main Idea&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;LMS Algorithm&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;The Normal Equation&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;Probabilistic Interpretation&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;Locally Weighted Linear Regression&#xD;Link to heading&#xD;Coming soon&amp;hellip;</description>
+      <title>Connect Four AI Agent</title>
+      <link>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</link>
+      <pubDate>Mon, 27 Jan 2025 20:18:41 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Summary Files Overview Heuristic Score Calculation Minimax Algorithm Key Parts Methods GUI Features Dependencies Demo Video Summary&#xD;Link to heading&#xD;This project implements an AI agent for Connect Four using the Minimax algorithm with alpha-beta pruning. The game features a graphical user interface (GUI) where users can play against the AI, adjust the search depth, and toggle pruning.&#xA;Files Overview&#xD;Link to heading&#xD;GUI.</description>
+    </item>
+    <item>
+      <title>8 Puzzle AI Solver</title>
+      <link>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</link>
+      <pubDate>Sun, 26 Jan 2025 20:18:34 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Introduction Depth First Search Breadth First Search A* Search with Manhattan heuristic A* Search with Euclidean heuristic Test Cases &amp;amp; Comparisons Observation Demo Video Introduction&#xD;Link to heading&#xD;This project discusses the main differences between the different types of AI Search Algorithms like the completeness and the optimality of the algorithm We used the 8-puzzle problem as an application that demonstrates these differences Depth-First Search&#xD;Link to heading&#xD;Data Structure: Stack Completeness: Not complete Optimality: Not optimal Time: O($ b^m $) Space: O($ b*m $) b is the branching factor m is the maximum possible search tree depth DFS is good only when it comes to space complexity Breadth-First Search&#xD;Link to heading&#xD;Data Structure: Queue Completeness: Complete Optimality: Optimal Time: O($ b^s $) Space: O($ b^s $) b is the branching factor s is the level where the goal state is present BFS is not very well dealt with space BFS can find the optimal solution only if all costs are equal to one A* Search with Manhattan heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Manhattan distance = $| x_1 - x_2 | + | y_1 - y_2 |$ A* Search with Euclidean heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Euclidean distance = $\sqrt{ (x_1 - x_2)^2 + (y_1 - y_2)^2 }$ Test Cases &amp;amp; Comparisons&#xD;Link to heading&#xD;Test #1&#xD;Link to heading&#xD;Input: 1 2 3 4 5 6 8 7 0 - Unsolvable test case -</description>
     </item>
     <item>
       <title>Better Understanding of AI Search Algorithms</title>
@@ -21,20 +28,6 @@
       <pubDate>Fri, 02 Feb 2024 23:53:51 +0200</pubDate>
       <guid>https://muhammedadeltaha.github.io/articles/better-understanding-of-ai-search-algorithms/</guid>
       <description>Created by the Author with Copilot&#xD;Table of Contents&#xD;Link to heading&#xD;Main Idea Types of AI Search Algorithms Uninformed Search Algorithms Depth-First Search (DFS) Breadth-First Search (BFS) Depth-Limited Search (DLS) Iterative Deepening DFS (ID-DFS) Uniform Cost Search (UCS) Main Idea&#xD;Link to heading&#xD;Let us imagine that Engineers do not yet implement these kinds of algorithms, and we have to think about modeling a life problem into a graph that represents all the states that this problem could be in.</description>
-    </item>
-    <item>
-      <title>Connect Four AI Agent</title>
-      <link>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:41 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</guid>
-      <description>Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Minimax with/without alpha-beta pruning and heuristic evaluation function</description>
-    </item>
-    <item>
-      <title>8 Puzzle AI Solver</title>
-      <link>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:34 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</guid>
-      <description>Table of Contents&#xD;Link to heading&#xD;Introduction Depth First Search Breadth First Search A* Search with Manhattan heuristic A* Search with Euclidean heuristic Test Cases &amp;amp; Comparisons Observation Simulation Introduction&#xD;Link to heading&#xD;This project discusses the main differences between the different types of AI Search Algorithms like the completeness and the optimality of the algorithm We used the 8-puzzle problem as an application that demonstrates these differences Depth-First Search&#xD;Link to heading&#xD;Data Structure: Stack Completeness: Not complete Optimality: Not optimal Time: O($ b^m $) Space: O($ b*m $) b is the branching factor m is the maximum possible search tree depth DFS is good only when it comes to space complexity Breadth-First Search&#xD;Link to heading&#xD;Data Structure: Queue Completeness: Complete Optimality: Optimal Time: O($ b^s $) Space: O($ b^s $) b is the branching factor s is the level where the goal state is present BFS is not very well dealt with space BFS can find the optimal solution only if all costs are equal to one A* Search with Manhattan heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Manhattan distance = $| x_1 - x_2 | + | y_1 - y_2 |$ A* Search with Euclidean heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Euclidean distance = $\sqrt{ (x_1 - x_2)^2 + (y_1 - y_2)^2 }$ Test Cases &amp;amp; Comparisons&#xD;Link to heading&#xD;Test #1&#xD;Link to heading&#xD;Input: 1 2 3 4 5 6 8 7 0 - Unsolvable test case -</description>
     </item>
   </channel>
 </rss>

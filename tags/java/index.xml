@@ -6,8 +6,22 @@
     <description>Recent content in Java on Mohamed Adel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Feb 2024 20:18:52 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 08:53:04 +0200</lastBuildDate>
     <atom:link href="https://muhammedadeltaha.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paint Application</title>
+      <link>https://muhammedadeltaha.github.io/projects/paint-application/</link>
+      <pubDate>Sat, 01 Feb 2025 08:53:04 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/paint-application/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Summary Key Design Patterns Frontend Patterns Backend Patterns Architecture Overview Frontend Structure Backend Structure Key Benefits Setup Instructions Design Pattern Impact Demo Video Summary&#xD;Link to heading&#xD;A collaborative drawing application with undo/redo capabilities, built with Angular (frontend) and Spring Boot (backend), demonstrating clean architecture and design pattern implementation.&#xA;Key Design Patterns&#xD;Link to heading&#xD;Frontend Patterns&#xD;Link to heading&#xD;1. Factory Method Pattern (shapeFactory/)&#xD;Link to heading&#xD;Implementation: Shape creation through ShapeFactory and concrete classes (circle.</description>
+    </item>
+    <item>
+      <title>Connect Four AI Agent</title>
+      <link>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</link>
+      <pubDate>Mon, 27 Jan 2025 20:18:41 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Summary Files Overview Heuristic Score Calculation Minimax Algorithm Key Parts Methods GUI Features Dependencies Demo Video Summary&#xD;Link to heading&#xD;This project implements an AI agent for Connect Four using the Minimax algorithm with alpha-beta pruning. The game features a graphical user interface (GUI) where users can play against the AI, adjust the search depth, and toggle pruning.&#xA;Files Overview&#xD;Link to heading&#xD;GUI.</description>
+    </item>
     <item>
       <title>Data Structures</title>
       <link>https://muhammedadeltaha.github.io/projects/data-structures/</link>
@@ -23,13 +37,6 @@
       <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Huffman Coding Maximum Side Length Median Finding Shortest Path Algorithms Huffman Coding&#xD;Link to heading&#xD;Maximum Side Length&#xD;Link to heading&#xD;Median Finding&#xD;Link to heading&#xD;Shortest Path Algorithms&#xD;Link to heading&#xD;</description>
     </item>
     <item>
-      <title>Connect Four AI Agent</title>
-      <link>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:41 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</guid>
-      <description>Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Minimax with/without alpha-beta pruning and heuristic evaluation function</description>
-    </item>
-    <item>
       <title>Central Student Hub</title>
       <link>https://muhammedadeltaha.github.io/projects/central-student-hub/</link>
       <pubDate>Thu, 01 Feb 2024 20:17:39 +0200</pubDate>
@@ -42,13 +49,6 @@
       <pubDate>Thu, 01 Feb 2024 19:48:40 +0200</pubDate>
       <guid>https://muhammedadeltaha.github.io/projects/email-server/</guid>
       <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Developed an Email Server encompassing features such as add attachment, compose, star, and delete messages Implemented other features like the ability to create and delete folders, searching on messages, and sorting messages Organized the application to contain several sections like inbox, draft, starred, deleted, and contacts Improved the code design by applying several Design Patterns on the project such as Filter, Proxy, and MVC design patterns </description>
-    </item>
-    <item>
-      <title>Paint Application</title>
-      <link>https://muhammedadeltaha.github.io/projects/paint-application/</link>
-      <pubDate>Thu, 01 Feb 2024 08:53:04 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/paint-application/</guid>
-      <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Developed a comprehensive Paint Application encompassing features such as creating, modifying and deleting various shapes with the ability to clear the board, manipulate colors, copy, resize and undo/redo actions Incorporated functionality for saving and loading drawings using either XML or JSON Improved the code design by applying several Design Patterns on the project such as Factory, Memento, and MVC design patterns </description>
     </item>
   </channel>
 </rss>

@@ -6,21 +6,42 @@
     <description>Recent content on Mohamed Adel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Sep 2024 21:10:29 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 08:53:04 +0200</lastBuildDate>
     <atom:link href="https://muhammedadeltaha.github.io/authors/mohamed-adel/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Better Understanding of Linear Regression</title>
-      <link>https://muhammedadeltaha.github.io/articles/better-understanding-of-linear-regression/</link>
-      <pubDate>Sat, 14 Sep 2024 21:10:29 +0300</pubDate>
-      <guid>https://muhammedadeltaha.github.io/articles/better-understanding-of-linear-regression/</guid>
-      <description>Created by the Author with Copilot&#xD;Table of Contents&#xD;Link to heading&#xD;Main Idea LMS Algorithm The Normal Equation Probabilistic Interpretation Locally Weighted Linear Regression Main Idea&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;LMS Algorithm&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;The Normal Equation&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;Probabilistic Interpretation&#xD;Link to heading&#xD;Coming soon&amp;hellip;&#xA;Locally Weighted Linear Regression&#xD;Link to heading&#xD;Coming soon&amp;hellip;</description>
+      <title>Paint Application</title>
+      <link>https://muhammedadeltaha.github.io/projects/paint-application/</link>
+      <pubDate>Sat, 01 Feb 2025 08:53:04 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/paint-application/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Summary Key Design Patterns Frontend Patterns Backend Patterns Architecture Overview Frontend Structure Backend Structure Key Benefits Setup Instructions Design Pattern Impact Demo Video Summary&#xD;Link to heading&#xD;A collaborative drawing application with undo/redo capabilities, built with Angular (frontend) and Spring Boot (backend), demonstrating clean architecture and design pattern implementation.&#xA;Key Design Patterns&#xD;Link to heading&#xD;Frontend Patterns&#xD;Link to heading&#xD;1. Factory Method Pattern (shapeFactory/)&#xD;Link to heading&#xD;Implementation: Shape creation through ShapeFactory and concrete classes (circle.</description>
+    </item>
+    <item>
+      <title>Connect Four AI Agent</title>
+      <link>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</link>
+      <pubDate>Mon, 27 Jan 2025 20:18:41 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Summary Files Overview Heuristic Score Calculation Minimax Algorithm Key Parts Methods GUI Features Dependencies Demo Video Summary&#xD;Link to heading&#xD;This project implements an AI agent for Connect Four using the Minimax algorithm with alpha-beta pruning. The game features a graphical user interface (GUI) where users can play against the AI, adjust the search depth, and toggle pruning.&#xA;Files Overview&#xD;Link to heading&#xD;GUI.</description>
     </item>
     <item>
       <title>Solar System</title>
       <link>https://muhammedadeltaha.github.io/projects/solar-system/</link>
-      <pubDate>Mon, 02 Sep 2024 23:03:16 +0300</pubDate>
+      <pubDate>Sun, 26 Jan 2025 23:03:16 +0300</pubDate>
       <guid>https://muhammedadeltaha.github.io/projects/solar-system/</guid>
-      <description>&#xD;Solar System Simulation&#xD;</description>
+      <description>Table of Contents&#xD;Link to heading&#xD;Code Architecture Overview Shaders Materials Buffers &amp;amp; Layouts Textures Shapes Renderer Camera Debugger OOP Concepts in Rendering Loop Inheritance &amp;amp; Polymorphism Encapsulation Separation of Concerns How the Rendering Loop Works Demo Video Code Architecture Overview&#xD;Link to heading&#xD;This project simulates a 3D solar system using OpenGL. Below is a breakdown of the key parts and their roles.&#xA;Shaders&#xD;Link to heading&#xD;Color.shader: Renders objects with a solid color.</description>
+    </item>
+    <item>
+      <title>8 Puzzle AI Solver</title>
+      <link>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</link>
+      <pubDate>Sun, 26 Jan 2025 20:18:34 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Introduction Depth First Search Breadth First Search A* Search with Manhattan heuristic A* Search with Euclidean heuristic Test Cases &amp;amp; Comparisons Observation Demo Video Introduction&#xD;Link to heading&#xD;This project discusses the main differences between the different types of AI Search Algorithms like the completeness and the optimality of the algorithm We used the 8-puzzle problem as an application that demonstrates these differences Depth-First Search&#xD;Link to heading&#xD;Data Structure: Stack Completeness: Not complete Optimality: Not optimal Time: O($ b^m $) Space: O($ b*m $) b is the branching factor m is the maximum possible search tree depth DFS is good only when it comes to space complexity Breadth-First Search&#xD;Link to heading&#xD;Data Structure: Queue Completeness: Complete Optimality: Optimal Time: O($ b^s $) Space: O($ b^s $) b is the branching factor s is the level where the goal state is present BFS is not very well dealt with space BFS can find the optimal solution only if all costs are equal to one A* Search with Manhattan heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Manhattan distance = $| x_1 - x_2 | + | y_1 - y_2 |$ A* Search with Euclidean heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Euclidean distance = $\sqrt{ (x_1 - x_2)^2 + (y_1 - y_2)^2 }$ Test Cases &amp;amp; Comparisons&#xD;Link to heading&#xD;Test #1&#xD;Link to heading&#xD;Input: 1 2 3 4 5 6 8 7 0 - Unsolvable test case -</description>
+    </item>
+    <item>
+      <title>Game Engine</title>
+      <link>https://muhammedadeltaha.github.io/projects/game-engine/</link>
+      <pubDate>Sun, 26 Jan 2025 20:17:18 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/game-engine/</guid>
+      <description>Demo&#xD;Link to heading&#xD;Table of Contents&#xD;Link to heading&#xD;Game Engine Architecture Code Structure Core OOP Architecture Base Game Engine Class Game Implementation Structure Key Design Patterns Template Method Pattern Factory Pattern Polymorphism Scalability Features Component Isolation State Management Asset Management Adding a New Game (3 Steps) Architecture Benefits Game Engine Architecture&#xD;Link to heading&#xD;A modular game engine built with JavaScript and OOP principles, designed to easily integrate multiple board games while maintaining a consistent architecture.</description>
     </item>
     <item>
       <title>Better Understanding of AI Search Algorithms</title>
@@ -44,20 +65,6 @@
       <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Huffman Coding Maximum Side Length Median Finding Shortest Path Algorithms Huffman Coding&#xD;Link to heading&#xD;Maximum Side Length&#xD;Link to heading&#xD;Median Finding&#xD;Link to heading&#xD;Shortest Path Algorithms&#xD;Link to heading&#xD;</description>
     </item>
     <item>
-      <title>Connect Four AI Agent</title>
-      <link>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:41 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/connect-four-ai-agent/</guid>
-      <description>Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Minimax with/without alpha-beta pruning and heuristic evaluation function</description>
-    </item>
-    <item>
-      <title>8 Puzzle AI Solver</title>
-      <link>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:34 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/8-puzzle-ai-solver/</guid>
-      <description>Table of Contents&#xD;Link to heading&#xD;Introduction Depth First Search Breadth First Search A* Search with Manhattan heuristic A* Search with Euclidean heuristic Test Cases &amp;amp; Comparisons Observation Simulation Introduction&#xD;Link to heading&#xD;This project discusses the main differences between the different types of AI Search Algorithms like the completeness and the optimality of the algorithm We used the 8-puzzle problem as an application that demonstrates these differences Depth-First Search&#xD;Link to heading&#xD;Data Structure: Stack Completeness: Not complete Optimality: Not optimal Time: O($ b^m $) Space: O($ b*m $) b is the branching factor m is the maximum possible search tree depth DFS is good only when it comes to space complexity Breadth-First Search&#xD;Link to heading&#xD;Data Structure: Queue Completeness: Complete Optimality: Optimal Time: O($ b^s $) Space: O($ b^s $) b is the branching factor s is the level where the goal state is present BFS is not very well dealt with space BFS can find the optimal solution only if all costs are equal to one A* Search with Manhattan heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Manhattan distance = $| x_1 - x_2 | + | y_1 - y_2 |$ A* Search with Euclidean heuristic&#xD;Link to heading&#xD;Data Structure: Priority Queue Completeness: Complete Optimality: Optimal A* Search Always finds the optimal solution A* Search considers the past cost and the upcoming heuristic cost Euclidean distance = $\sqrt{ (x_1 - x_2)^2 + (y_1 - y_2)^2 }$ Test Cases &amp;amp; Comparisons&#xD;Link to heading&#xD;Test #1&#xD;Link to heading&#xD;Input: 1 2 3 4 5 6 8 7 0 - Unsolvable test case -</description>
-    </item>
-    <item>
       <title>Central Student Hub</title>
       <link>https://muhammedadeltaha.github.io/projects/central-student-hub/</link>
       <pubDate>Thu, 01 Feb 2024 20:17:39 +0200</pubDate>
@@ -72,25 +79,11 @@
       <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Developed and optimized a multithreading matrix multiplication algorithm, enhancing computational efficiency for large matrices Implemented synchronization and load-balancing strategies for optimal resource utilization on multicore processors </description>
     </item>
     <item>
-      <title>Game Engine</title>
-      <link>https://muhammedadeltaha.github.io/projects/game-engine/</link>
-      <pubDate>Thu, 01 Feb 2024 20:17:18 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/game-engine/</guid>
-      <description>Demo&#xD;Link to heading&#xD;Table of Contents&#xD;Link to heading&#xD;Game Engine Architecture Code Structure Core OOP Architecture Base Game Engine Class Game Implementation Structure Key Design Patterns Template Method Pattern Factory Pattern Polymorphism Scalability Features Component Isolation State Management Asset Management Adding a New Game (3 Steps) Architecture Benefits Game Engine Architecture&#xD;Link to heading&#xD;A modular game engine built with JavaScript and OOP principles, designed to easily integrate multiple board games while maintaining a consistent architecture.</description>
-    </item>
-    <item>
       <title>Email Server</title>
       <link>https://muhammedadeltaha.github.io/projects/email-server/</link>
       <pubDate>Thu, 01 Feb 2024 19:48:40 +0200</pubDate>
       <guid>https://muhammedadeltaha.github.io/projects/email-server/</guid>
       <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Developed an Email Server encompassing features such as add attachment, compose, star, and delete messages Implemented other features like the ability to create and delete folders, searching on messages, and sorting messages Organized the application to contain several sections like inbox, draft, starred, deleted, and contacts Improved the code design by applying several Design Patterns on the project such as Filter, Proxy, and MVC design patterns </description>
-    </item>
-    <item>
-      <title>Paint Application</title>
-      <link>https://muhammedadeltaha.github.io/projects/paint-application/</link>
-      <pubDate>Thu, 01 Feb 2024 08:53:04 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/paint-application/</guid>
-      <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Developed a comprehensive Paint Application encompassing features such as creating, modifying and deleting various shapes with the ability to clear the board, manipulate colors, copy, resize and undo/redo actions Incorporated functionality for saving and loading drawings using either XML or JSON Improved the code design by applying several Design Patterns on the project such as Factory, Memento, and MVC design patterns </description>
     </item>
   </channel>
 </rss>

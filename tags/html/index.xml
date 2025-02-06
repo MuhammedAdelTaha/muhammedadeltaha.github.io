@@ -6,8 +6,22 @@
     <description>Recent content in HTML on Mohamed Adel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Feb 2024 20:17:39 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 08:53:04 +0200</lastBuildDate>
     <atom:link href="https://muhammedadeltaha.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paint Application</title>
+      <link>https://muhammedadeltaha.github.io/projects/paint-application/</link>
+      <pubDate>Sat, 01 Feb 2025 08:53:04 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/paint-application/</guid>
+      <description>Table of Contents&#xD;Link to heading&#xD;Summary Key Design Patterns Frontend Patterns Backend Patterns Architecture Overview Frontend Structure Backend Structure Key Benefits Setup Instructions Design Pattern Impact Demo Video Summary&#xD;Link to heading&#xD;A collaborative drawing application with undo/redo capabilities, built with Angular (frontend) and Spring Boot (backend), demonstrating clean architecture and design pattern implementation.&#xA;Key Design Patterns&#xD;Link to heading&#xD;Frontend Patterns&#xD;Link to heading&#xD;1. Factory Method Pattern (shapeFactory/)&#xD;Link to heading&#xD;Implementation: Shape creation through ShapeFactory and concrete classes (circle.</description>
+    </item>
+    <item>
+      <title>Game Engine</title>
+      <link>https://muhammedadeltaha.github.io/projects/game-engine/</link>
+      <pubDate>Sun, 26 Jan 2025 20:17:18 +0200</pubDate>
+      <guid>https://muhammedadeltaha.github.io/projects/game-engine/</guid>
+      <description>Demo&#xD;Link to heading&#xD;Table of Contents&#xD;Link to heading&#xD;Game Engine Architecture Code Structure Core OOP Architecture Base Game Engine Class Game Implementation Structure Key Design Patterns Template Method Pattern Factory Pattern Polymorphism Scalability Features Component Isolation State Management Asset Management Adding a New Game (3 Steps) Architecture Benefits Game Engine Architecture&#xD;Link to heading&#xD;A modular game engine built with JavaScript and OOP principles, designed to easily integrate multiple board games while maintaining a consistent architecture.</description>
+    </item>
     <item>
       <title>Central Student Hub</title>
       <link>https://muhammedadeltaha.github.io/projects/central-student-hub/</link>
@@ -16,25 +30,11 @@
       <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Implemented the Controller, Service, and Repository layers in the Backend for several components like Course, Grade, and Feedback Helped in the Frontend by implementing the HTML/CSS for the Login and Sign Up pages Developed and optimized the project Database using ER-Diagrams and Normalization Reviewed the code written by my teammates to ensure high standards for our project Used Jira to introduce time estimates for a better project management process Delivered several test cases that achieved - 100% code coverage </description>
     </item>
     <item>
-      <title>Game Engine</title>
-      <link>https://muhammedadeltaha.github.io/projects/game-engine/</link>
-      <pubDate>Thu, 01 Feb 2024 20:17:18 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/game-engine/</guid>
-      <description>Demo&#xD;Link to heading&#xD;Table of Contents&#xD;Link to heading&#xD;Game Engine Architecture Code Structure Core OOP Architecture Base Game Engine Class Game Implementation Structure Key Design Patterns Template Method Pattern Factory Pattern Polymorphism Scalability Features Component Isolation State Management Asset Management Adding a New Game (3 Steps) Architecture Benefits Game Engine Architecture&#xD;Link to heading&#xD;A modular game engine built with JavaScript and OOP principles, designed to easily integrate multiple board games while maintaining a consistent architecture.</description>
-    </item>
-    <item>
       <title>Email Server</title>
       <link>https://muhammedadeltaha.github.io/projects/email-server/</link>
       <pubDate>Thu, 01 Feb 2024 19:48:40 +0200</pubDate>
       <guid>https://muhammedadeltaha.github.io/projects/email-server/</guid>
       <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Developed an Email Server encompassing features such as add attachment, compose, star, and delete messages Implemented other features like the ability to create and delete folders, searching on messages, and sorting messages Organized the application to contain several sections like inbox, draft, starred, deleted, and contacts Improved the code design by applying several Design Patterns on the project such as Filter, Proxy, and MVC design patterns </description>
-    </item>
-    <item>
-      <title>Paint Application</title>
-      <link>https://muhammedadeltaha.github.io/projects/paint-application/</link>
-      <pubDate>Thu, 01 Feb 2024 08:53:04 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/paint-application/</guid>
-      <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Summary Summary&#xD;Link to heading&#xD;Developed a comprehensive Paint Application encompassing features such as creating, modifying and deleting various shapes with the ability to clear the board, manipulate colors, copy, resize and undo/redo actions Incorporated functionality for saving and loading drawings using either XML or JSON Improved the code design by applying several Design Patterns on the project such as Factory, Memento, and MVC design patterns </description>
     </item>
   </channel>
 </rss>

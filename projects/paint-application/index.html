@@ -23,8 +23,8 @@
 <meta property="og:description" content="Comprehensive Paint Application with various features such as creating, modifying and deleting shapes, manipulating colors, copying, resizing, and undo/redo actions" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://muhammedadeltaha.github.io/projects/paint-application/" /><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2024-02-01T08:53:04+02:00" />
-<meta property="article:modified_time" content="2024-02-01T08:53:04+02:00" />
+<meta property="article:published_time" content="2025-02-01T08:53:04+02:00" />
+<meta property="article:modified_time" content="2025-02-01T08:53:04+02:00" />
 
 
 
@@ -144,13 +144,13 @@
           <div class="date">
             <span class="posted-on">
               <i class="fa-solid fa-calendar" aria-hidden="true"></i>
-              <time datetime="2024-02-01T08:53:04&#43;02:00">
-                February 1, 2024
+              <time datetime="2025-02-01T08:53:04&#43;02:00">
+                February 1, 2025
               </time>
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              One-minute read
+              3-minute read
             </span>
           </div>
           <div class="authors">
@@ -166,10 +166,6 @@
           <div class="tags">
   <i class="fa-solid fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="/tags/design-patterns/">Design Patterns</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
       <a href="/tags/angular/">Angular</a>
     </span>
       <span class="separator">•</span>
@@ -178,15 +174,15 @@
     </span>
       <span class="separator">•</span>
     <span class="tag">
+      <a href="/tags/java/">Java</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
       <a href="/tags/html/">HTML</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
       <a href="/tags/css/">CSS</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
-      <a href="/tags/java/">Java</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
@@ -211,6 +207,22 @@
 </h1>
 <ul>
 <li><a href="#summary" >Summary</a></li>
+<li><a href="#key-design-patterns" >Key Design Patterns</a>
+<ul>
+<li><a href="#frontend-patterns" >Frontend Patterns</a></li>
+<li><a href="#backend-patterns" >Backend Patterns</a></li>
+</ul>
+</li>
+<li><a href="#architecture-overview" >Architecture Overview</a>
+<ul>
+<li><a href="#frontend-structure" >Frontend Structure</a></li>
+<li><a href="#backend-structure" >Backend Structure</a></li>
+</ul>
+</li>
+<li><a href="#key-benefits" >Key Benefits</a></li>
+<li><a href="#setup-instructions" >Setup Instructions</a></li>
+<li><a href="#design-pattern-impact" >Design Pattern Impact</a></li>
+<li><a href="#demo-video" >Demo Video</a></li>
 </ul>
 <h2 id="summary">
   Summary
@@ -219,11 +231,317 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
+<p>A collaborative drawing application with undo/redo capabilities,
+built with Angular (frontend) and Spring Boot (backend),
+demonstrating clean architecture and design pattern implementation.</p>
+<h2 id="key-design-patterns">
+  Key Design Patterns
+  <a class="heading-link" href="#key-design-patterns">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="frontend-patterns">
+  Frontend Patterns
+  <a class="heading-link" href="#frontend-patterns">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<h4 id="1-factory-method-pattern-shapefactory">
+  1. <strong>Factory Method Pattern</strong> (<code>shapeFactory/</code>)
+  <a class="heading-link" href="#1-factory-method-pattern-shapefactory">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <ul>
-<li>Developed a comprehensive Paint Application encompassing features such as creating, modifying and deleting various shapes with the ability to clear the board, manipulate colors, copy, resize and undo/redo actions</li>
-<li>Incorporated functionality for saving and loading drawings using either <strong>XML</strong> or <strong>JSON</strong></li>
-<li>Improved the code design by applying several <strong>Design Patterns</strong> on the project such as <strong>Factory</strong>, <strong>Memento</strong>, and <strong>MVC</strong> design patterns</li>
+<li><strong>Implementation:</strong> Shape creation through <code>ShapeFactory</code> and concrete classes (<code>circle.ts</code>, <code>rectangle.ts</code>)</li>
+<li><strong>Benefits:</strong>
+<ul>
+<li>Encapsulates shape creation logic</li>
+<li>Enables easy addition of new shape types</li>
+<li>Centralizes shape configuration management</li>
 </ul>
+</li>
+<li><strong>Code Example:</strong>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="k">this</span><span class="p">.</span><span class="nx">shapeFactory</span><span class="p">.</span><span class="nx">factoryClass</span><span class="p">(</span><span class="cm">/* params */</span><span class="p">).</span><span class="kr">get</span><span class="p">();</span>
+</span></span></code></pre></div></li>
+</ul>
+<h4 id="2-observer-pattern">
+  2. <strong>Observer Pattern</strong>
+  <a class="heading-link" href="#2-observer-pattern">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li><strong>Implementation:</strong> RxJS Observables in <code>KonvaService</code></li>
+<li><strong>Benefits:</strong>
+<ul>
+<li>Asynchronous handling of backend responses</li>
+<li>Decouples UI components from API communication</li>
+<li>Enables reactive programming paradigm</li>
+</ul>
+</li>
+<li><strong>Code Example:</strong>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="k">this</span><span class="p">.</span><span class="nx">konvaService</span><span class="p">.</span><span class="nx">resize</span><span class="p">(...).</span><span class="nx">subscribe</span><span class="p">(...);</span>
+</span></span></code></pre></div></li>
+</ul>
+<h4 id="3-singleton-pattern">
+  3. <strong>Singleton Pattern</strong>
+  <a class="heading-link" href="#3-singleton-pattern">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li><strong>Implementation:</strong> Angular services (<code>KonvaService</code>, <code>ShapeFactory</code>)</li>
+<li><strong>Benefits:</strong>
+<ul>
+<li>Single instance across application</li>
+<li>Consistent state management</li>
+<li>Efficient resource utilization</li>
+</ul>
+</li>
+</ul>
+<h4 id="4-command-pattern">
+  4. <strong>Command Pattern</strong>
+  <a class="heading-link" href="#4-command-pattern">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li><strong>Implementation:</strong> Operation classes for undo/redo</li>
+<li><strong>Benefits:</strong>
+<ul>
+<li>Encapsulates drawing operations as objects</li>
+<li>Enables transactional behavior</li>
+<li>Simplifies history management</li>
+</ul>
+</li>
+</ul>
+<h3 id="backend-patterns">
+  Backend Patterns
+  <a class="heading-link" href="#backend-patterns">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<h4 id="1-memento-pattern-mementojava-originatorjava-caretakercontrollerjava">
+  1. <strong>Memento Pattern</strong> (<code>Memento.java</code>, <code>Originator.java</code>, <code>CareTakerController.java</code>)
+  <a class="heading-link" href="#1-memento-pattern-mementojava-originatorjava-caretakercontrollerjava">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li><strong>Implementation:</strong>
+<ul>
+<li><code>Originator</code>: Manages current state</li>
+<li><code>Memento</code>: State snapshot storage</li>
+<li><code>CareTaker</code>: Undo/redo stack management</li>
+</ul>
+</li>
+<li><strong>Benefits:</strong>
+<ul>
+<li>Clean state management separation</li>
+<li>Efficient history tracking</li>
+<li>Low memory footprint through deep cloning</li>
+</ul>
+</li>
+<li><strong>Class Diagram:</strong>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Originator &lt;--&gt; Memento
+</span></span><span class="line"><span class="cl">CareTaker manages Memento history
+</span></span></code></pre></div></li>
+</ul>
+<h4 id="2-strategy-pattern">
+  2. <strong>Strategy Pattern</strong>
+  <a class="heading-link" href="#2-strategy-pattern">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li><strong>Implementation:</strong> Different serialization strategies (JSON/XML)</li>
+<li><strong>Benefits:</strong>
+<ul>
+<li>Interchangeable file format handling</li>
+<li>Easy addition of new formats</li>
+<li>Decoupled serialization logic</li>
+</ul>
+</li>
+</ul>
+<h2 id="architecture-overview">
+  Architecture Overview
+  <a class="heading-link" href="#architecture-overview">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="frontend-structure">
+  Frontend Structure
+  <a class="heading-link" href="#frontend-structure">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">app/
+</span></span><span class="line"><span class="cl">├── components/           # UI components
+</span></span><span class="line"><span class="cl">├── services/             # Business logic
+</span></span><span class="line"><span class="cl">│   └── konva.service.ts  # API communication
+</span></span><span class="line"><span class="cl">└── models/
+</span></span><span class="line"><span class="cl">    └── shape/            # Shape implementations
+</span></span><span class="line"><span class="cl">        └── factory/      # Factory pattern
+</span></span></code></pre></div><h3 id="backend-structure">
+  Backend Structure
+  <a class="heading-link" href="#backend-structure">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">src/main/java/
+</span></span><span class="line"><span class="cl">├── model/                # Domain models
+</span></span><span class="line"><span class="cl">│   ├── Memento.java
+</span></span><span class="line"><span class="cl">│   └── Originator.java
+</span></span><span class="line"><span class="cl">├── controller/           # REST endpoints
+</span></span><span class="line"><span class="cl">└── util/                 # Helper classes
+</span></span></code></pre></div><h2 id="key-benefits">
+  Key Benefits
+  <a class="heading-link" href="#key-benefits">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li>
+<p><strong>State Management</strong></p>
+<ul>
+<li>Memento pattern provides robust undo/redo capabilities</li>
+<li>Deep cloning ensures state isolation</li>
+<li>CareTaker maintains clean operation history</li>
+</ul>
+</li>
+<li>
+<p><strong>Extensibility</strong></p>
+<ul>
+<li>Factory pattern enables easy shape additions</li>
+<li>Strategy pattern supports multiple file formats</li>
+<li>Observer pattern allows asynchronous operations</li>
+</ul>
+</li>
+<li>
+<p><strong>Maintainability</strong></p>
+<ul>
+<li>Clear separation of concerns</li>
+<li>Decoupled components</li>
+<li>Type-safe implementations</li>
+</ul>
+</li>
+<li>
+<p><strong>Performance</strong></p>
+<ul>
+<li>Batch drawing operations</li>
+<li>Efficient state cloning</li>
+<li>Layer-based rendering</li>
+</ul>
+</li>
+</ol>
+<h2 id="setup-instructions">
+  Setup Instructions
+  <a class="heading-link" href="#setup-instructions">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li>
+<p><strong>Backend</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mvn spring-boot:run
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Frontend</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">npm install
+</span></span><span class="line"><span class="cl">ng serve
+</span></span></code></pre></div></li>
+</ol>
+<h2 id="design-pattern-impact">
+  Design Pattern Impact
+  <a class="heading-link" href="#design-pattern-impact">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Problem Solved</th>
+<th>Implementation Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Memento</td>
+<td>State versioning</td>
+<td>Backend model package</td>
+</tr>
+<tr>
+<td>Factory Method</td>
+<td>Flexible object creation</td>
+<td>shapeFactory/ directory</td>
+</tr>
+<tr>
+<td>Observer</td>
+<td>Asynchronous communication</td>
+<td>konva.service.ts</td>
+</tr>
+<tr>
+<td>Singleton</td>
+<td>Single service instances</td>
+<td>Angular @Injectable decorator</td>
+</tr>
+<tr>
+<td>Strategy</td>
+<td>Interchangeable file formats</td>
+<td>PaintController save/load</td>
+</tr>
+</tbody>
+</table>
+<p>This architecture demonstrates how proper pattern implementation leads to:</p>
+<ul>
+<li>Clear separation between presentation and business logic</li>
+<li>Testable and modular components</li>
+<li>Scalable feature additions</li>
+<li>Maintainable state management</li>
+<li>Robust error handling</li>
+</ul>
+<h2 id="demo-video">
+  Demo Video
+  <a class="heading-link" href="#demo-video">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+<figure>
+    
+        <video src="video.mp4" controls title="Paint-Application Demo Video" width="90%"
+               height="100%" style="float: none"></video>
+    
+    
+        <figcaption style="font-size: 16px"><b></b> Paint-Application Demo Video</figcaption>
+    
+</figure>
 
       </div>
 
