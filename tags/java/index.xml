@@ -23,20 +23,6 @@
       <description>Table of Contents&#xD;Link to heading&#xD;Summary Files Overview Heuristic Score Calculation Minimax Algorithm Key Parts Methods GUI Features Dependencies Demo Video Summary&#xD;Link to heading&#xD;This project implements an AI agent for Connect Four using the Minimax algorithm with alpha-beta pruning. The game features a graphical user interface (GUI) where users can play against the AI, adjust the search depth, and toggle pruning.&#xA;Files Overview&#xD;Link to heading&#xD;GUI.</description>
     </item>
     <item>
-      <title>Data Structures</title>
-      <link>https://muhammedadeltaha.github.io/projects/data-structures/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:52 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/data-structures/</guid>
-      <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Graph Hashing Heap Tree Graph&#xD;Link to heading&#xD;Hashing&#xD;Link to heading&#xD;Heap&#xD;Link to heading&#xD;Tree&#xD;Link to heading&#xD;</description>
-    </item>
-    <item>
-      <title>Algorithms</title>
-      <link>https://muhammedadeltaha.github.io/projects/algorithms/</link>
-      <pubDate>Thu, 01 Feb 2024 20:18:47 +0200</pubDate>
-      <guid>https://muhammedadeltaha.github.io/projects/algorithms/</guid>
-      <description>&#xD;Table of Contents&#xD;Link to heading&#xD;Huffman Coding Maximum Side Length Median Finding Shortest Path Algorithms Huffman Coding&#xD;Link to heading&#xD;Maximum Side Length&#xD;Link to heading&#xD;Median Finding&#xD;Link to heading&#xD;Shortest Path Algorithms&#xD;Link to heading&#xD;</description>
-    </item>
-    <item>
       <title>Central Student Hub</title>
       <link>https://muhammedadeltaha.github.io/projects/central-student-hub/</link>
       <pubDate>Thu, 01 Feb 2024 20:17:39 +0200</pubDate>
